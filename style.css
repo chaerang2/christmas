@@ -187,13 +187,18 @@ img{
     width: 400px;
     transition: 0.3s;
 }
+/* .ple{
+  position: relative;
+  height: 2000px;
+} */
 #yullmoo img:hover{
     transition: 0.3s;
     transform: scale(1.5);
 }
 /* 푸터 */
 footer{
-    position: relative;
+  position: relative;
+  bottom: 0;
     height: 150px;
     background-image: url(img/1.jpeg);
     background-size: cover;
@@ -223,6 +228,9 @@ footer div{
 #song_form.show,
 #yullmoo.show{
     display: block;
+}
+#contents.show{
+  height: 5200px;
 }
 
 
